@@ -11,6 +11,7 @@ public class InputControl
 
     public void initialInput()
     {
+        System.out.println("--------------------------------------");
         System.out.println("Enter command start (type H for help): ");
         String input = textReader.next().toLowerCase();
         if (input.equals("h"))

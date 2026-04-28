@@ -113,7 +113,7 @@ public class AlgoTester
             }
             aAvgTime = aTotalTime / 10;
             alAvgTime = alTotalTime / 10;
-            System.out.println(i + "\t" + aAvgTime + "\t" + alAvgTime);
+            System.out.println(i * increment + "\t" + aAvgTime + "\t" + alAvgTime);
 
         }
     }
@@ -141,7 +141,7 @@ public class AlgoTester
             }
 
             avgTime = totalTime / 10;
-            System.out.println(i + "\t" + avgTime);
+            System.out.println(i * increment + "\t" + avgTime);
 
         }
     }
