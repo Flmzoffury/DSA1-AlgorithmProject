@@ -60,32 +60,32 @@ public class InputControl
         String input = textReader.next().toLowerCase();
         if (input.equals("linearsearch"))
         {
-            AlgoTester.testMethodArray("", 100);
+            AlgoTester.testMethodArray("linear", 100);
         }
         else if (input.equals("linearbinary"))
         {
-            AlgoTester.testMethodArray("", 100);
+            AlgoTester.testMethodArray("linearBinary", 100);
 
         }
         else if (input.equals("recursivebinary"))
         {
-            AlgoTester.testMethodArray("", 100);
+            AlgoTester.testMethodArray("binary", 100);
         }
         else if (input.equals("bubblesort"))
         {
-            AlgoTester.testMethodArray("", 100);
+            AlgoTester.testMethodArray("bubble", 100);
         }
         else if (input.equals("insertionsort"))
         {
-            AlgoTester.testMethodArray("", 100);
+            AlgoTester.testMethodArray("insertion", 100);
         }
         else if (input.equals("selectionsort"))
         {
-            AlgoTester.testMethodArray("", 100);
+            AlgoTester.testMethodArray("selection", 100);
         }
         else if (input.equals("shellsort"))
         {
-            AlgoTester.testMethodArray("", 100);
+            AlgoTester.testMethodArray("shell", 100);
         }
 
     }

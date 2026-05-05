@@ -33,13 +33,13 @@ public class AlgoTester
                 }
                 else if (methodName.equals("linearBinary"))
                 {
-                    array = SelectionSort.selectionSortArray(array);
+                    array = ShellSort.shellSortArray(array);
                     startTime = System.currentTimeMillis();
                     LinearBinarySearch.linearBinarySearchArray(array, target);
                 }
                 else if (methodName.equals("binary"))
                 {
-                    array = SelectionSort.selectionSortArray(array);
+                    array = ShellSort.shellSortArray(array);
                     startTime = System.currentTimeMillis();
                     BinarySearch.binarySearchArray(array, target, 0, array.length-1);
                 }
@@ -65,7 +65,7 @@ public class AlgoTester
                 }
                 else
                 {
-                    startTime = 0;
+                    startTime = System.currentTimeMillis();
                 }
 
                 aTotalTime += System.currentTimeMillis() - startTime;
@@ -77,13 +77,13 @@ public class AlgoTester
                 }
                 else if (methodName.equals("linearBinary"))
                 {
-                    arrayList = SelectionSort.selectionSortArrayList(arrayList);
+                    arrayList = ShellSort.shellSortArrayList(arrayList);
                     startTime = System.currentTimeMillis();
                     LinearBinarySearch.linearBinarySearchArrayList(arrayList, target);
                 }
                 else if (methodName.equals("binary"))
                 {
-                    arrayList = SelectionSort.selectionSortArrayList(arrayList);
+                    arrayList = ShellSort.shellSortArrayList(arrayList);
                     startTime = System.currentTimeMillis();
                     BinarySearch.binarySearchArrayList(arrayList, target, 0, arrayList.size() - 1);
                 }
